@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply text-olive-800;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-olive-700 text-white px-6 py-2 rounded-lg hover:bg-olive-800 transition duration-300;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-olive-700 text-olive-700 px-6 py-2 rounded-lg hover:bg-olive-50 transition duration-300;
+  }
+}
