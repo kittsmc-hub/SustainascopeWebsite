@@ -58,7 +58,7 @@ const About = () => {
             />
             <div className="absolute -bottom-8 -left-8 bg-olive-900 p-8 rounded-lg shadow-xl">
               <div className="text-4xl font-bold text-white mb-2">Sustainable Solutions</div>
-              <div className="text-olive-100"> Better World </div>
+              <div className="text-olive-80"> For a changing World </div>
             </div>
           </div>
         </div>
