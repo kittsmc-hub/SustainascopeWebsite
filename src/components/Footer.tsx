@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-olive-900">
+    <footer id="footer" className="bg-olive-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="pt-20 pb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             <div className="space-y-6">
               <Link to="/">
-                <img src="/SunstainascopeLogo.png" alt="Sustainascope" className="h-16" />
+                <img src="/SunstainascopeLogo.png" alt="Sustainascope" className="h-16 w-40 object-contain" />
               </Link>
               <p className="text-olive-100">
                 Leading the way in sustainable energy solutions and environmental conservation.
@@ -87,7 +87,7 @@ const Footer = () => {
                 </li>
                 <li className="flex items-center text-olive-100">
                   <Phone className="w-5 h-5 mr-3" />
-                  <span>+254722834500</span>
+                  <span>+254706115449</span>
                 </li>
                 <li className="flex items-center text-olive-100">
                   <MapPin className="w-5 h-5 mr-3" />

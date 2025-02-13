@@ -61,7 +61,7 @@ const Navbar: React.FC<NavbarProps> = ({ isMenuOpen, setIsMenuOpen }) => {
               <img 
                 src="/SunstainascopeLogo.png" 
                 alt="Sustainascope" 
-                className="h-16"
+                className="h-17 w-60 object-contain"
               />
             </Link>
           </div>
@@ -90,8 +90,8 @@ const Navbar: React.FC<NavbarProps> = ({ isMenuOpen, setIsMenuOpen }) => {
                 Solutions
               </a>
               <a 
-                href="#contact" 
-                onClick={(e) => handleNavClick(e, '#contact')}
+                href="#footer" 
+                onClick={(e) => handleNavClick(e, '#footer')}
                 className={`${isScrolled ? 'text-olive-900' : 'text-white'} hover:text-olive-800 transition-colors font-medium`}
               >
                 Contact
