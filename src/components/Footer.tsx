@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             <div className="space-y-6">
               <Link to="/">
-                <img src="/SunstainascopeLogo.png" alt="Sustainascope" className="h-16 w-40 object-contain" />
+                <img src="/BlackBackgroundSustainascope.png" alt="Sustainascope" className="h-16 w-40 object-contain" />
               </Link>
               <p className="text-olive-100">
                 Leading the way in sustainable energy solutions and environmental conservation.
